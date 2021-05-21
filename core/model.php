@@ -52,8 +52,4 @@ if (isset($product_selected) && $product_selected <>'') {//запрос на д�
     $total_sum = $basket_view[1];
     unset($product_selected);
 }
-if (isset($basket_window) && $basket_window == 'go') {//запрос на просмотр корзины в отдельном окне
-    require "../core/view_basket.php";
-} else {
-    require "../core/view.php";
-}
+require "../core/view.php";
