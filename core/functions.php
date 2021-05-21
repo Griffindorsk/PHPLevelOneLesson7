@@ -128,16 +128,16 @@ function basket_show() {
         
         $row = $row + 1;
         $basket_list = $basket_list . <<<_END
-        <div style="grid-area: $row/1" class="items"><a href="index.php?show=$id&basket_window=go">$pr_number</a></div>
-        <div style="grid-area: $row/2" class="items"><a href="index.php?show=$id&basket_window=go">$pr_name</a></div>
-        <div style="grid-area: $row/3" class="items"><a href="index.php?show=$id&basket_window=go">$gender</a></div>
-        <div style="grid-area: $row/4" class="items"><a href="index.php?show=$id&basket_window=go">$size</a></div>
-        <div style="grid-area: $row/5" class="items"><a href="index.php?show=$id&basket_window=go">$color</a></div>
-        <div style="grid-area: $row/6" class="items"><a href="index.php?show=$id&basket_window=go"><img src="../$path_to_icon$photo" alt="иконка футболки"></a></div>
-        <div style="grid-area: $row/7" class="items"><a href="index.php?show=$id&basket_window=go">$price_unit</a></div>
-        <div style="grid-area: $row/8" class="items"><a href="index.php?show=$id&basket_window=go">$quantity</a></div>
-        <div style="grid-area: $row/9" class="items"><a href="index.php?show=$id&basket_window=go">$price_total</a></div>
-        <div style="grid-area: $row/10" class="items col_button"><a href="index.php?item_del=$id_basket&basket_window=go">удалить</a></div>
+        <div style="grid-area: $row/1" class="items"><a href="index.php?show=$id">$pr_number</a></div>
+        <div style="grid-area: $row/2" class="items"><a href="index.php?show=$id">$pr_name</a></div>
+        <div style="grid-area: $row/3" class="items"><a href="index.php?show=$id">$gender</a></div>
+        <div style="grid-area: $row/4" class="items"><a href="index.php?show=$id">$size</a></div>
+        <div style="grid-area: $row/5" class="items"><a href="index.php?show=$id">$color</a></div>
+        <div style="grid-area: $row/6" class="items"><a href="index.php?show=$id"><img src="../$path_to_icon$photo" alt="иконка футболки"></a></div>
+        <div style="grid-area: $row/7" class="items"><a href="index.php?show=$id">$price_unit</a></div>
+        <div style="grid-area: $row/8" class="items"><a href="index.php?show=$id">$quantity</a></div>
+        <div style="grid-area: $row/9" class="items"><a href="index.php?show=$id">$price_total</a></div>
+        <div style="grid-area: $row/10" class="items col_button"><a href="index.php?item_del=$id_basket">удалить</a></div>
 _END;
     }
     }

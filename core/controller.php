@@ -18,7 +18,4 @@ if (isset($_GET['show'])) {//запрос описания конкретног�
 if (isset($_GET['to_basket'])) {//запрос на добавление товара в корзину
     ($_GET['to_basket'] <> '') ? $product_selected = htmlspecialchars($_GET['to_basket']) : $product_selected = '';
 }
-if (isset($_GET['basket_window'])) {//запрос на просмотр корзины в отдельном окне
-    ($_GET['basket_window'] == 'go') ? $basket_window = 'go' : $basket_window = '';
-}
 require "../core/model.php";
